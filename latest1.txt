@@ -1,0 +1,12 @@
+docker rmi $(docker images -q)
+docker rmi -f $(docker images -a -q)
+amazon/aws-cli
+curl http://publicip:80
+
+docker run -it nginx or imageid /bin/sh (Interactive Mode)
+docker exec -it containerid or containername /bin/sh
+
+
+docker run -d nginx /bin/sh
+docker run -d nginx
+172.18.0.0/16"
